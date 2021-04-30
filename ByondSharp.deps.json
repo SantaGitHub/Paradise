@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0/win-x86",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {},
+    ".NETCoreApp,Version=v5.0/win-x86": {
+      "ByondSharp/1.0.0": {
+        "dependencies": {
+          "DNNE": "1.0.17",
+          "Microsoft.Toolkit.HighPerformance": "6.1.1",
+          "RestSharp": "106.11.7"
+        },
+        "runtime": {
+          "ByondSharp.dll": {}
+        }
+      },
+      "DNNE/1.0.17": {},
+      "Microsoft.Toolkit.HighPerformance/6.1.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Toolkit.HighPerformance.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.1.1"
+          }
+        }
+      },
+      "RestSharp/106.11.7": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.11.7.0",
+            "fileVersion": "106.11.7.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ByondSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DNNE/1.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vFPrQEhFKxYT9M5yn/oHTbCwEgfgtFJ6H98sqRcfAbeI3xjjrbZZZ/kI5KBH4eEIXOdJRJAslwk2Nktlq4emFw==",
+      "path": "dnne/1.0.17",
+      "hashPath": "dnne.1.0.17.nupkg.sha512"
+    },
+    "Microsoft.Toolkit.HighPerformance/6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-unWleSNzEvo8NaeQ+/j7Omr5Zs1LqmywNQSLnIzBiK6l6StH+fRyaFaMDF1T36/HnN7+ADa4rPMVpiuTUTuG3A==",
+      "path": "microsoft.toolkit.highperformance/6.1.1",
+      "hashPath": "microsoft.toolkit.highperformance.6.1.1.nupkg.sha512"
+    },
+    "RestSharp/106.11.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NzndH096CTulvq+ihr7u1mBJ29oukdi9A8bypQJk+kaHxbRzTTrtgsEEQAb04ptTUZmQa7cgo7uF5z7NuEPX1Q==",
+      "path": "restsharp/106.11.7",
+      "hashPath": "restsharp.106.11.7.nupkg.sha512"
+    }
+  }
+}

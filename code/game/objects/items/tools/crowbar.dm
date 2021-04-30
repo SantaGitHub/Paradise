@@ -53,6 +53,16 @@
 	item_state = "crowbar_large"
 	toolspeed = 0.5
 
+/obj/item/crowbar/large/examine(mob/user)
+	. = ..(user, "", "1")
+	charp_startstopwatch(null)
+	. += ln(0.5)
+	. += charp_getstopwatch(null)
+
+	charp_startstopwatch(null)
+	. += charp_teststopwatch(null)
+	. += charp_getstopwatch(null)
+
 /obj/item/crowbar/cyborg
 	name = "hydraulic crowbar"
 	desc = "A hydraulic prying tool, compact but powerful. Designed to replace crowbar in construction cyborgs."
